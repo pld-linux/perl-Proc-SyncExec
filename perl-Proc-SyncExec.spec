@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Proc
-%define	pnam	SyncExec
+%define		pdir	Proc
+%define		pnam	SyncExec
 Summary:	Proc::SyncExec perl module
 Summary(pl):	Modu³ perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
