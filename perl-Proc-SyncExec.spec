@@ -27,7 +27,7 @@ procesów z pe³nym raportowaniem o b³êdach.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
