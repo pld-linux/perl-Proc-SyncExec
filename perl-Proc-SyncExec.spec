@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	SyncExec
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
 Version:	1.00
 Release:	6
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e888bfb8bab757c1444d3613bd910266
@@ -34,7 +39,8 @@ procesów z pe³nym raportowaniem o b³êdach.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
