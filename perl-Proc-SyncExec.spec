@@ -5,7 +5,7 @@ Summary:	Proc::SyncExec perl module
 Summary(pl):	Modu³ perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
 Version:	1.00
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
