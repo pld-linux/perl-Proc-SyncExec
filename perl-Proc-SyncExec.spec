@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Proc
 %define	pnam	SyncExec
-Summary:	Proc-SyncExec perl module
-Summary(pl):	Modu³ perla Proc-SyncExec
+Summary:	Proc::SyncExec perl module
+Summary(pl):	Modu³ perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
 Version:	1.00
 Release:	5
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Proc-SyncExec module contains functions for synchronized process
+Proc::SyncExec module contains functions for synchronized process
 spawning with full error return.
 
 %description -l pl
-Modu³ Proc-SyncExec zawiera funkcje do synchonicznego mno¿enia
+Modu³ Proc::SyncExec zawiera funkcje do synchonicznego mno¿enia
 procesów z pe³nym raportowaniem o b³êdach.
 
 %prep
