@@ -28,7 +28,7 @@ procesów z pe³nym raportowaniem o b³êdach.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
