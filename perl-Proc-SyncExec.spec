@@ -25,7 +25,7 @@ Proc::SyncExec module contains functions for synchronized process
 spawning with full error return.
 
 %description -l pl
-Modu³ Proc::SyncExec zawiera funkcje do synchonicznego mno¿enia
+Modu³ Proc::SyncExec zawiera funkcje do synchronicznego mno¿enia
 procesów z pe³nym raportowaniem o b³êdach.
 
 %prep
