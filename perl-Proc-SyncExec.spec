@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	SyncExec
 Summary:	Proc::SyncExec perl module
-Summary(pl):	Modu≥ perla Proc::SyncExec
+Summary(pl.UTF-8):   Modu≈Ç perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
 Version:	1.01
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Proc::SyncExec module contains functions for synchronized process
 spawning with full error return.
 
-%description -l pl
-Modu≥ Proc::SyncExec zawiera funkcje do synchronicznego mnoøenia
-procesÛw z pe≥nym raportowaniem o b≥Ídach.
+%description -l pl.UTF-8
+Modu≈Ç Proc::SyncExec zawiera funkcje do synchronicznego mno≈ºenia
+proces√≥w z pe≈Çnym raportowaniem o b≈Çƒôdach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
