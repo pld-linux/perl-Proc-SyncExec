@@ -6,7 +6,7 @@
 %define		pdir	Proc
 %define		pnam	SyncExec
 Summary:	Proc::SyncExec perl module
-Summary(pl.UTF-8):   Moduł perla Proc::SyncExec
+Summary(pl.UTF-8):	Moduł perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
 Version:	1.01
 Release:	1
