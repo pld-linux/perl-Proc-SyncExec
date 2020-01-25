@@ -4,7 +4,6 @@
 
 %define		pdir	Proc
 %define		pnam	SyncExec
-%include	/usr/lib/rpm/macros.perl
 Summary:	Proc::SyncExec perl module
 Summary(pl.UTF-8):	Moduł perla Proc::SyncExec
 Name:		perl-Proc-SyncExec
